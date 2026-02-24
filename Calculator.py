@@ -18,7 +18,7 @@ if op == "+":
 elif op == "-":
     print("Result : ",sub(x,y))
 elif op == "*":
-    print("Result:  ",mul())
+    print("Result:  ",mul(x,y))
 elif op == "/":
     if y == 0:
         print("Cannot divide by zero ❌")
