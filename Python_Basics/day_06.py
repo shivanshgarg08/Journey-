@@ -27,6 +27,5 @@ print(maxof2(num1,num2))
 
 #Exercise 3 Default Argument
 def_name = input("Enter the name")
-def greet(x):
-    
+
     
