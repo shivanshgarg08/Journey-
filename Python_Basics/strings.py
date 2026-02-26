@@ -52,5 +52,62 @@ print(s1)
 print(s2)
 
 i = "Hello World"
-i_new = i[:2] + "X" + i[3:]
+i_new = i[:2] + "X" +"c" + i[4:]
 print(i_new)
+
+j = "Shivansh Garg"
+j_new = j.replace("Shivansh Garg","Elizaaa")
+print(j)
+print(j_new)
+
+k = "Shivansh Garg"
+k_new = k[:0] + "s" + k[1:]
+print(k_new)
+
+z='gfgff'
+del z #Deleting a string 
+
+r = "Shivansh Garg"
+print(len(r)) 
+print(r.upper())
+print(r.lower())
+
+y = " G F G "
+print(y.strip())
+
+#Concatination of a string 
+a = "Hello"
+b = "World"
+
+c = a + " " + b
+print(c)
+print(type(c))
+
+g = "Helo shiv"
+print(g*4)
+
+#Using formatting F- String 
+
+name = "Shivansh  Garg"
+age = 21
+
+print(f"Your name is : {name} and your age is: {age}")
+
+#Using Format()
+
+s = "My name is {} and my age is {} years old.".format("Shivansh",21)
+print(s)
+
+#String Membership testing
+name = "Shivansh Garg"
+print("Shivansh" in name)
+
+# Step slicing 
+s = "abcdef"
+print(s[::2])
+
+s = "abcdef"
+print(s[::-1])
+
+s = "Hello"
+print(s == "hello")
