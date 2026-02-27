@@ -111,3 +111,10 @@ print(s[::-1])
 
 s = "Hello"
 print(s == "hello")
+
+s = "shivansh"
+del s
+
+h1 = "shivanshG"
+h2 = h1.replace("shivanshG","Shivansh Garg")
+print(h2)
